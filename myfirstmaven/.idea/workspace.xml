@@ -2,30 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="774a7c58-7aea-4307-b5d2-66787f23e0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/so4it/service/MyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/so4it/service/MySpringMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/MySpringMain.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/so4it/AccountServiceFactoryUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ServiceTier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfirstmaven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstmaven.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/so4it/service/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/so4it/service/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/so4it/AccountDaoUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/so4it/AccountDaoUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/so4it/AccountServiceUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/so4it/AccountServiceUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/myfirstmaven.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/so4it/dao/AccountDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/so4it/dao/AccountDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/so4it/service/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/so4it/MyMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/so4it/service/MySpringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/so4it/MySpringMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/MySpringMain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/DaoTier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/so4it/service/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/so4it/service/AccountServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/myfirstmaven-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/myfirstmaven-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/so4it/AccountDaoUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/so4it/AccountDaoUnitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/so4it/AccountServiceUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/so4it/AccountServiceUnitTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,11 +26,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/MySpringMain.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/MySpringMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+            <state relative-caret-position="165">
+              <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/DaoTier.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/support/GenericXmlApplicationContext.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,10 +78,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/MySpringMain.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+            <state relative-caret-position="162">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/MyMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/ServiceTier.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/AccountServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/dao/AccountDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -81,13 +144,17 @@
         <option value="$PROJECT_DIR$/src/test/java/com/so4it/AccountServiceUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplOne.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplTwo.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/so4it/AccountServiceFactoryUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/MyMain.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/MySpringMain.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/MySpringMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/MyMain.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/MySpringMain.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/MySpringMain.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ServiceTier.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/DaoTier.xml" />
       </list>
     </option>
   </component>
@@ -153,15 +220,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="so4it" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myfirstmaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myfirstmaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="so4it" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -181,13 +239,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.so4it" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.so4it.service" />
       <recent name="com.so4it" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -204,12 +272,12 @@
   </component>
   <component name="RunManager" selected="Application.MySpringMain">
     <configuration name="MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.so4it.service.MyMain" />
+      <option name="MAIN_CLASS_NAME" value="com.so4it.MyMain" />
       <module name="myfirstmaven" />
       <option name="PROGRAM_PARAMETERS" value="com.so4it.service.ServiceFactoryImplOne ADOIHAOD HOHDASDAS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.so4it.service.*" />
+          <option name="PATTERN" value="com.so4it.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,11 +286,12 @@
       </method>
     </configuration>
     <configuration name="MySpringMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.so4it.service.MySpringMain" />
+      <option name="MAIN_CLASS_NAME" value="com.so4it.MySpringMain" />
       <module name="myfirstmaven" />
+      <option name="PROGRAM_PARAMETERS" value="ServiceTier.xml DaoTier.xml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.so4it.service.*" />
+          <option name="PATTERN" value="com.so4it.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,10 +349,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.MyMain" />
+      <item itemvalue="Application.MySpringMain" />
       <item itemvalue="JUnit.AccountDaoUnitTest.testCreateAndRead" />
       <item itemvalue="JUnit.AccountServiceFactoryUnitTest.testGetBalance" />
       <item itemvalue="JUnit.AccountServiceFactoryUnitTest.testGetBalanceHardcoded" />
-      <item itemvalue="Application.MySpringMain" />
     </list>
     <recent_temporary>
       <list>
@@ -306,6 +375,14 @@
       <option name="presentableId" value="Default" />
       <updated>1560325330626</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding some spring stuff">
+      <created>1560329104024</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560329104024</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -337,9 +414,9 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33874458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30573592" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32902467" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
@@ -359,6 +436,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding some spring stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some spring stuff" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/domain/Account.java">
@@ -423,38 +504,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/so4it/AccountServiceFactoryUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="324">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/AccountServiceImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="162">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/dao/AccountDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="8" selection-end-column="21" />
+        <state relative-caret-position="108">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/MyMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/MyMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/so4it/AccountServiceFactoryUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -468,20 +545,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/MySpringMain.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/AccountServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        <state relative-caret-position="486">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/MySpringMain.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+        <state relative-caret-position="269">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/support/GenericXmlApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/MySpringMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ServiceTier.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DaoTier.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

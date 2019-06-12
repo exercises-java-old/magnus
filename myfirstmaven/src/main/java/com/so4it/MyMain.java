@@ -1,4 +1,6 @@
-package com.so4it.service;
+package com.so4it;
+
+import com.so4it.service.ServiceFactory;
 
 import java.lang.reflect.InvocationTargetException;
 
