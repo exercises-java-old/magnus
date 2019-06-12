@@ -11,7 +11,7 @@ public class AccountDaoUnitTest {
     @Test
     public void testCreateAndRead() {
         AccountDao accountDao = new AccountDaoImpl();
-        accountDao.create(Account.builder().withId(1L).build());
+        accountDao.create(Account.builder().withId(1L).withBalance(2.0).build());
         Assert.assertNotNull(accountDao.read(1L));
     }
     @Test

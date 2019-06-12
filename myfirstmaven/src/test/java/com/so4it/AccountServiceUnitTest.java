@@ -8,11 +8,14 @@ import com.so4it.service.AccountServiceImpl;
 import com.so4it.service.AnotherAccountServiceImpl;
 import org.junit.Assert;
 import org.junit.Test;
+import org.mockito.Mockito;
 
 public class AccountServiceUnitTest {
 
     @Test
     public void testGetBalance() {
+        //AccountDao dao = Mockito.mock(AccountDao.class);
+        //Mockito.when(dao.read(1L)).thenReturn(null)
         AccountDao accountDao = new AccountDaoImpl();
         accountDao.create(Account.builder().withId(1L).withBalance(100d).build());
         AccountService accountService1 = new AccountServiceImpl(accountDao);

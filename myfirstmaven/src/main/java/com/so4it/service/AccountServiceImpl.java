@@ -21,6 +21,7 @@ public class AccountServiceImpl implements  AccountService{
 
     @Override
     public Double getBalance(Long id) {
+        System.out.println("Im the first one");
         Optional<Account> account = accountDao.read(id);
         if(account.isPresent()){
             return account.get().getBalance();
