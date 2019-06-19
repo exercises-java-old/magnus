@@ -20,19 +20,14 @@ public class MySpringMain {
             AccountDao dao = applicationContext.getBean(AccountDao.class);
             Optional<Account> optional = dao.read(1L);
             System.out.println("isPresent:" + optional.isPresent());
-
             AccountService accountService = applicationContext.getBean(AccountService.class);
-
             accountService.create(Account.builder().withId(1L).withBalance(2.0d).build());
 
 
             //I do a wait here to make sure the producer/consumer pattern has gone through
             //before looking into the dao
-            Thread.sleep(1000L);
             optional = dao.read(1L);
             System.out.println("isPresent:" + optional.isPresent());
-
-            System.out.println(accountService.getBalance(1L));
         }catch(Exception e){
 
         }finally {

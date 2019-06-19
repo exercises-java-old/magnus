@@ -10,8 +10,12 @@ import java.util.Objects;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
 
-public class AccountConsumer implements Runnable, AutoCloseable {
+public class AccountConsumer implements AutoCloseable {
+
+
+    private static final Logger LOGGER = Logger.getLogger("consumer");
 
 
     private RunningTask runningTask;
@@ -40,21 +44,6 @@ public class AccountConsumer implements Runnable, AutoCloseable {
         runningTask.close();
     }
 
-    @Override
-    public void run() {
-        while(!Thread.interrupted()){
-            try {
-                Account account = queue.poll(100L, TimeUnit.MILLISECONDS);
-                if(account != null){
-                    accountListeners.forEach(al -> al.onAccount(account));
-                }
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-            }
-        }
-    }
-
-
     public static class RunningTask extends RecurringBlockingTask<Account> {
 
 
@@ -70,6 +59,12 @@ public class AccountConsumer implements Runnable, AutoCloseable {
         @Override
         protected void doTask(Account account) {
             accountListeners.forEach(listener -> listener.onAccount(account));
+        }
+
+
+        @Override
+        protected void onError(Throwable throwable, Account account) {
+            LOGGER.severe(throwable.getMessage());
         }
 
         @Override
