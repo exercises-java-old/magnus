@@ -14,7 +14,8 @@
     </bean>
 
 
-    <bean id="accountConsumer" class="com.so4it.messaging.AccountConsumer">
+    <bean id="accountConsumer" class="com.so4it.messaging.AccountConsumer"
+            init-method="init" destroy-method="close">
         <constructor-arg name="queue" ref="queue"/>
         <constructor-arg name="accountListeners">
             <list>

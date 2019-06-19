@@ -28,9 +28,10 @@ public class AccountConsumer implements Runnable, AutoCloseable {
     }
 
 
-    public void init(){
+    public AccountConsumer init(){
         runningTask = new RunningTask(queue,accountListeners);
         runningTask.start();
+        return this;
     }
 
 

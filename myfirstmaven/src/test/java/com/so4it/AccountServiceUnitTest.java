@@ -25,29 +25,20 @@ public class AccountServiceUnitTest {
 
     @Test
     public void testGetBalance() throws Exception{
-        //AccountDao dao = Mockito.mock(AccountDao.class);
-        //Mockito.when(dao.read(1L)).thenReturn(null)
         AccountDao accountDao = new AccountDaoImpl();
-        accountDao.create(Account.builder().withId(1L).withBalance(100d).build());
-
+        //accountDao.create(Account.builder().withId(1L).withBalance(100d).build());
 
         AtomicInteger atomicInteger = new AtomicInteger(0);
 
         List<AccountListener> accountListeners = new ArrayList<>();
         accountListeners.add(account -> atomicInteger.incrementAndGet());
 
-
         BlockingDeque<Account> queue = new LinkedBlockingDeque<>();
         AccountProducer accountProducer = new AccountProducer(queue);
-        try(AccountConsumer accountConsumer = new AccountConsumer(queue,accountListeners)){
-            accountConsumer.init();
-
+        try(AccountConsumer accountConsumer = new AccountConsumer(queue,accountListeners).init()){
             AccountService accountService = new AccountServiceImpl(accountDao,accountProducer);
             accountService.create(Account.builder().withBalance(12.0).withId(1L).build());
-
             Poller.pollAndCheck(SatisfiedWhenTrueReturned.create( () -> atomicInteger.get() == 1));
-
-
         }
     }
 
