@@ -2,11 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="774a7c58-7aea-4307-b5d2-66787f23e0de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountListenerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/so4it/util/NamedThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/so4it/util/RecurringBlockingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Messaging.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/so4it/util/Poller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/so4it/util/Probe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/so4it/util/ProbeAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/so4it/util/SatisfiedWhenTrueReturned.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/so4it/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/so4it/domain/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfirstmaven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myfirstmaven.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/so4it/MySpringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/so4it/MySpringMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/so4it/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/so4it/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/so4it/service/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/so4it/service/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/so4it/service/AnotherAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/so4it/service/AnotherAccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ServiceTier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ServiceTier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/so4it/AccountListenerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/so4it/AccountListenerUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/myfirstmaven-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/myfirstmaven-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/so4it/AccountServiceUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/so4it/AccountServiceUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/so4it/domain/Account$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/so4it/domain/Account$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/so4it/domain/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/so4it/domain/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/so4it/messaging/AccountConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/so4it/messaging/AccountConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/so4it/messaging/AccountProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/so4it/messaging/AccountProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/so4it/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/so4it/service/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/so4it/service/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/so4it/service/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/so4it/service/AnotherAccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/so4it/service/AnotherAccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/so4it/AccountServiceUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/so4it/AccountServiceUnitTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,10 +47,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountConsumer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/MySpringMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="29" column="36" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="36" />
+            <state relative-caret-position="109">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,81 +59,103 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/so4it/AccountListenerUnitTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/so4it/AccountServiceUnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="314">
+              <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/concurrent/atomic/AtomicInteger.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <folding>
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/so4it/util/Poller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-216">
+              <caret line="68" column="31" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#1592#1593#0" expanded="true" />
+                <element signature="e#1635#1636#0" expanded="true" />
+                <element signature="e#3037#3038#0" expanded="true" />
+                <element signature="e#3117#3118#0" expanded="true" />
+                <element signature="e#3156#3157#0" expanded="true" />
+                <element signature="e#3223#3224#0" expanded="true" />
+                <element signature="e#3259#3260#0" expanded="true" />
+                <element signature="e#3316#3317#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/domain/Account.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/so4it/util/SatisfiedWhenTrueReturned.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountProducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="230">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding>
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/concurrent/LinkedBlockingDeque.class">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/so4it/util/ProbeAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="24" column="85" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="85" />
+            <state relative-caret-position="297">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/Queue.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/DaoTier.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/StringDescription.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding>
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/support/GenericXmlApplicationContext.class">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/so4it/util/Probe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+            <state relative-caret-position="378">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -116,8 +163,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/ServiceTier.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="243">
+              <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -138,25 +185,36 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/so4it/AccountDaoUnitTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/so4it/AccountServiceUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplOne.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplTwo.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/so4it/AccountServiceFactoryUnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/MyMain.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/MySpringMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/so4it/MyMain.java" />
         <option value="$PROJECT_DIR$/src/main/resources/MySpringMain.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/AccountServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/so4it/MySpringMain.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/ServiceTier.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/DaoTier.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountConsumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/so4it/domain/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountListenerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/util/ReccuringBlockingTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/util/RecurringBlockingTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/util/NamedThreadFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/MySpringMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountConsumer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/so4it/AccountListenerUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Messaging.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/service/AnotherAccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ServiceTier.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/util/Poller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/util/Probe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/util/ProbeAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/so4it/util/SatisfiedWhenTrueReturned.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/so4it/AccountServiceUnitTest.java" />
       </list>
     </option>
   </component>
@@ -222,7 +280,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="so4it" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="messaging" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myfirstmaven" type="b2602c69:ProjectViewProjectNode" />
@@ -231,7 +289,23 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="so4it" type="462c0819:PsiDirectoryNode" />
-              <item name="messaging" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myfirstmaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myfirstmaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="so4it" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myfirstmaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myfirstmaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myfirstmaven" type="b2602c69:ProjectViewProjectNode" />
@@ -268,19 +342,21 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/test" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.so4it.util" />
+      <recent name="com.so4it" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.so4it.messaging" />
+      <recent name="com.so4it.service" />
       <recent name="com.so4it" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.so4it.service" />
-      <recent name="com.so4it" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/resources/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -295,7 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountListenerUnitTest.testProducerConsumer">
+  <component name="RunManager" selected="JUnit.AccountServiceUnitTest.testGetBalance">
     <configuration name="MyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.so4it.MyMain" />
       <module name="myfirstmaven" />
@@ -340,22 +416,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountServiceFactoryUnitTest.testGetBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myfirstmaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.so4it.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.so4it" />
-      <option name="MAIN_CLASS_NAME" value="com.so4it.AccountServiceFactoryUnitTest" />
-      <option name="METHOD_NAME" value="testGetBalance" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AccountServiceFactoryUnitTest.testGetBalanceHardcoded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myfirstmaven" />
       <extension name="coverage">
@@ -372,20 +432,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccountServiceUnitTest.testGetBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myfirstmaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.so4it.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.so4it" />
+      <option name="MAIN_CLASS_NAME" value="com.so4it.AccountServiceUnitTest" />
+      <option name="METHOD_NAME" value="testGetBalance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MyMain" />
       <item itemvalue="Application.MySpringMain" />
       <item itemvalue="JUnit.AccountListenerUnitTest.testProducerConsumer" />
       <item itemvalue="JUnit.AccountServiceFactoryUnitTest.testGetBalanceHardcoded" />
-      <item itemvalue="JUnit.AccountServiceFactoryUnitTest.testGetBalance" />
+      <item itemvalue="JUnit.AccountServiceUnitTest.testGetBalance" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountListenerUnitTest.testProducerConsumer" />
+        <item itemvalue="JUnit.AccountServiceUnitTest.testGetBalance" />
         <item itemvalue="Application.MySpringMain" />
+        <item itemvalue="JUnit.AccountListenerUnitTest.testProducerConsumer" />
         <item itemvalue="Application.MyMain" />
         <item itemvalue="JUnit.AccountServiceFactoryUnitTest.testGetBalanceHardcoded" />
-        <item itemvalue="JUnit.AccountServiceFactoryUnitTest.testGetBalance" />
       </list>
     </recent_temporary>
   </component>
@@ -414,25 +490,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560330251236</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding some spring stuff">
+      <created>1560930920284</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560930920286</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountDaoUnitTest_testCreateAndRead - 2019.06.12 at 09h 43m 46s.xml">
-      <configuration name="AccountDaoUnitTest.testCreateAndRead" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountServiceFactoryUnitTest_testGetBalance - 2019.06.12 at 10h 12m 08s.xml">
-      <configuration name="AccountServiceFactoryUnitTest.testGetBalance" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountServiceFactoryUnitTest_testGetBalance - 2019.06.12 at 10h 13m 19s.xml">
-      <configuration name="AccountServiceFactoryUnitTest.testGetBalance" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountServiceFactoryUnitTest_testGetBalance - 2019.06.12 at 10h 14m 21s.xml">
-      <configuration name="AccountServiceFactoryUnitTest.testGetBalance" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AccountServiceFactoryUnitTest_testGetBalanceHardcoded - 2019.06.12 at 10h 20m 54s.xml">
-      <configuration name="AccountServiceFactoryUnitTest.testGetBalanceHardcoded" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AccountListenerUnitTest_testProducerConsumer - 2019.06.12 at 11h 53m 56s.xml">
       <configuration name="AccountListenerUnitTest.testProducerConsumer" configurationId="JUnit" />
     </history-entry>
@@ -448,12 +516,27 @@
     <history-entry file="AccountListenerUnitTest_testProducerConsumer - 2019.06.19 at 09h 53m 28s.xml">
       <configuration name="AccountListenerUnitTest.testProducerConsumer" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AccountListenerUnitTest_testProducerConsumer - 2019.06.19 at 09h 54m 24s.xml">
+      <configuration name="AccountListenerUnitTest.testProducerConsumer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountListenerUnitTest_testProducerConsumer - 2019.06.19 at 10h 43m 37s.xml">
+      <configuration name="AccountListenerUnitTest.testProducerConsumer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceUnitTest_testGetBalance - 2019.06.19 at 10h 49m 12s.xml">
+      <configuration name="AccountServiceUnitTest.testGetBalance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceUnitTest_testGetBalance - 2019.06.19 at 10h 50m 43s.xml">
+      <configuration name="AccountServiceUnitTest.testGetBalance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountServiceUnitTest_testGetBalance - 2019.06.19 at 10h 51m 19s.xml">
+      <configuration name="AccountServiceUnitTest.testGetBalance" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31576088" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -470,7 +553,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32902467" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3293556" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -493,33 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/AnotherAccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/Class.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -531,13 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/so4it/AccountServiceUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -572,40 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/AccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/MySpringMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/concurrent/LinkedBlockingDeque.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -627,41 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/support/GenericXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ServiceTier.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -676,14 +656,247 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/so4it/AccountListenerUnitTest.java">
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/concurrent/BlockingDeque.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="54">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/util/NamedThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/util/RecurringBlockingTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#2230#2231#0" expanded="true" />
+            <element signature="e#2282#2283#0" expanded="true" />
+            <element signature="e#2534#2535#0" expanded="true" />
+            <element signature="e#2592#2593#0" expanded="true" />
+            <element signature="e#2643#2644#0" expanded="true" />
+            <element signature="e#2689#2690#0" expanded="true" />
+            <element signature="e#2727#2728#0" expanded="true" />
+            <element signature="e#2765#2766#0" expanded="true" />
+            <element signature="e#3653#3654#0" expanded="true" />
+            <element signature="e#3699#3700#0" expanded="true" />
+            <element signature="e#3737#3738#0" expanded="true" />
+            <element signature="e#3775#3776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/support/GenericXmlApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountListenerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Messaging.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
+            <element signature="e#2217#2218#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/so4it/AccountListenerUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/messaging/AccountProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/ServiceFactoryImplTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/service/AnotherAccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/so4it/MySpringMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ServiceTier.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/StringDescription.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/so4it/util/Probe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/so4it/util/Poller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="68" column="31" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+            <element signature="e#3037#3038#0" expanded="true" />
+            <element signature="e#3117#3118#0" expanded="true" />
+            <element signature="e#3156#3157#0" expanded="true" />
+            <element signature="e#3223#3224#0" expanded="true" />
+            <element signature="e#3259#3260#0" expanded="true" />
+            <element signature="e#3316#3317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/so4it/util/ProbeAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/so4it/util/SatisfiedWhenTrueReturned.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/concurrent/atomic/AtomicInteger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/so4it/AccountServiceUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
         </state>
       </provider>
     </entry>

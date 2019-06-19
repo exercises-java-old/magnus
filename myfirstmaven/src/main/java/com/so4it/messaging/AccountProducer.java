@@ -2,10 +2,8 @@ package com.so4it.messaging;
 
 import com.so4it.domain.Account;
 
-import java.util.Queue;
 import java.util.Random;
 import java.util.concurrent.BlockingDeque;
-import java.util.concurrent.LinkedBlockingDeque;
 
 public class AccountProducer implements Runnable{
 
@@ -13,18 +11,24 @@ public class AccountProducer implements Runnable{
     private static final Random RANDOM = new Random();
 
 
-    private BlockingDeque<Account> accounts;
+    private BlockingDeque<Account> queue;
 
 
-    public AccountProducer(BlockingDeque<Account> accounts) {
-        this.accounts = accounts;
+    public AccountProducer(BlockingDeque<Account> queue) {
+        this.queue = queue;
     }
+
+
+    public void create(Account account){
+        queue.add(account);
+    }
+
 
     @Override
     public void run() {
         while(!Thread.currentThread().isInterrupted()){
             try {
-                accounts.add(Account.builder().withId(RANDOM.nextLong()).withBalance(RANDOM.nextDouble()).build());
+                queue.add(Account.builder().withId(RANDOM.nextLong()).withBalance(RANDOM.nextDouble()).build());
                 Thread.sleep(100);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();

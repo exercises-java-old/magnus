@@ -6,6 +6,8 @@ import com.so4it.messaging.AccountListener;
 import com.so4it.messaging.AccountProducer;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.LinkedBlockingDeque;
 
@@ -35,7 +37,9 @@ public class AccountListenerUnitTest {
 
 
         //Another way of doing lambda
-        AccountConsumer accountConsumer = new AccountConsumer(accounts, account -> System.out.println(account));
+        List<AccountListener> accountListeners = new ArrayList<>();
+        accountListeners.add(account -> System.out.println(account));
+        AccountConsumer accountConsumer = new AccountConsumer(accounts, accountListeners);
 
 
 

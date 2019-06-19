@@ -12,7 +12,10 @@ public class MySpringMain {
 
     public static void main(String[] args){
 
-        ApplicationContext applicationContext = new GenericXmlApplicationContext(args);
+        ApplicationContext applicationContext = new GenericXmlApplicationContext(
+                "Messaging.xml",
+                "DaoTier.xml",
+                "ServiceTier.xml");
         AccountDao dao = applicationContext.getBean(AccountDao.class);
         Optional<Account> optional = dao.read(1L);
         System.out.println("isPresent:" + optional.isPresent());
