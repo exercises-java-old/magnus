@@ -2,6 +2,7 @@ package com.so4it;
 
 import com.so4it.domain.Account;
 import com.so4it.messaging.AccountConsumer;
+import com.so4it.messaging.AccountListener;
 import com.so4it.messaging.AccountProducer;
 import org.junit.Test;
 
@@ -17,7 +18,27 @@ public class AccountListenerUnitTest {
         BlockingDeque<Account> accounts = new LinkedBlockingDeque<>();
 
         AccountProducer accountProducer = new AccountProducer(accounts);
-        AccountConsumer accountConsumer = new AccountConsumer(accounts, System.out::println);
+
+
+        //Lambda expression
+        //AccountConsumer accountConsumer = new AccountConsumer(accounts, System.out::println);
+
+
+        //Anonymous class
+        AccountListener accountListener = new AccountListener(){
+            @Override
+            public void onAccount(Account account) {
+                System.out.println(account);
+            }
+        };
+        //AccountConsumer accountConsumer = new AccountConsumer(accounts, accountListener);
+
+
+        //Another way of doing lambda
+        AccountConsumer accountConsumer = new AccountConsumer(accounts, account -> System.out.println(account));
+
+
+
 
         new Thread(accountProducer).start();
         new Thread(accountConsumer).start();

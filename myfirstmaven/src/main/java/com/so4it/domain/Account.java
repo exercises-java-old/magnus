@@ -22,6 +22,15 @@ public class Account {
         return balance;
     }
 
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "id=" + id +
+                ", balance=" + balance +
+                '}';
+    }
+
     public static Builder builder(){
         return new Builder();
     }
