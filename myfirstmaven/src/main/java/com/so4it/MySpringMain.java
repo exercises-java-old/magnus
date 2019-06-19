@@ -3,12 +3,11 @@ package com.so4it;
 import com.so4it.dao.AccountDao;
 import com.so4it.domain.Account;
 import com.so4it.service.AccountService;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
+
 import java.util.Optional;
 
 public class MySpringMain {
-
 
     public static void main(String[] args){
 
