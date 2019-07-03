@@ -60,7 +60,6 @@ public class AccountMysqlDaoImpl implements AccountDao {
         Connection connection = connectToDatabase();
         PreparedStatement preparedStatement = null;
 
-        Optional<Account> optional = null;
         Account account;
         Long accountId = null;
         Double accountBalance = null;
@@ -88,7 +87,7 @@ public class AccountMysqlDaoImpl implements AccountDao {
         }
         catch (NullPointerException e){
             System.out.println("Account with id "+id+" could not be found.");
-            return optional.empty();
+            return Optional.empty();
         }finally { try {
             connection.close();
         } catch (SQLException e) {
@@ -96,8 +95,39 @@ public class AccountMysqlDaoImpl implements AccountDao {
         }
         }
 
-        return optional.ofNullable(account);
+        return Optional.ofNullable(account);
     }
+
+    @Override
+    public boolean update(Account account) {
+        return false;
+    }
+
+    @Override
+    public boolean update(Long id, Double newBalance) {
+        Connection connection = connectToDatabase();
+        PreparedStatement preparedStatement = null;
+        String sql = "UPDATE accounts SET balance = ? WHERE id = ?";
+        int rowsAffected = 0;
+
+        try {
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setDouble(1, newBalance);
+            preparedStatement.setLong(2, id);
+            rowsAffected = preparedStatement.executeUpdate();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return rowsAffected == 1;
+    }
+
+    @Override
+    public boolean delete(Long id) {
+        return false;
+    }
+
 
     @Override
     public Collection<Account> readAccountsWithBalanceOver(Double limit) {

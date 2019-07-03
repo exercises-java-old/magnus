@@ -33,6 +33,21 @@ public class ServiceFactoryImplTwo implements ServiceFactory{
         }
 
         @Override
+        public boolean update(Account account) {
+            return false;
+        }
+
+        @Override
+        public boolean update(Long id, Double newBalance) {
+            return false;
+        }
+
+        @Override
+        public boolean delete(Long id) {
+            return false;
+        }
+
+        @Override
         public Connection connectToDatabase() {
             return null;
         }

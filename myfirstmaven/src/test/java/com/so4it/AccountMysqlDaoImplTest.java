@@ -35,4 +35,24 @@ public class AccountMysqlDaoImplTest {
         Account account = optional.get();
         System.out.println(account.getBalance() );
     }
+
+    @Test
+    public void updateTest(){
+        AccountDao dao = new AccountMysqlDaoImpl();
+        dao.update(3L, 12000d);
+        Assert.assertFalse(dao.update(10L, 2000d));
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+

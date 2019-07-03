@@ -12,6 +12,12 @@ public interface AccountDao {
 
     Optional<Account> read(Long id);
 
+    boolean update(Account account);
+
+    boolean update(Long id, Double newBalance);
+
+    boolean delete(Long id);
+
     Connection connectToDatabase();
 
     Collection<Account> readAccountsWithBalanceOver(Double limit);
