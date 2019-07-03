@@ -58,7 +58,9 @@ public class AccountConsumer implements AutoCloseable {
 
         @Override
         protected void doTask(Account account) {
-            accountListeners.forEach(listener -> listener.onAccount(account));
+            if(account != null){
+                accountListeners.forEach(listener -> listener.onAccount(account));
+            }
         }
 
 

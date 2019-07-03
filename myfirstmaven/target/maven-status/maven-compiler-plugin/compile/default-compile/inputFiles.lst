@@ -1,0 +1,14 @@
+/home/magpor/projects/magnus/myfirstmaven/src/main/java/com/so4it/messaging/AccountConsumer.java
+/home/magpor/projects/magnus/myfirstmaven/src/main/java/com/so4it/domain/Account.java
+/home/magpor/projects/magnus/myfirstmaven/src/main/java/com/so4it/service/ServiceFactoryImplOne.java
+/home/magpor/projects/magnus/myfirstmaven/src/main/java/com/so4it/messaging/AccountProducer.java
+/home/magpor/projects/magnus/myfirstmaven/src/main/java/com/so4it/dao/AccountDao.java
+/home/magpor/projects/magnus/myfirstmaven/src/main/java/com/so4it/service/AccountServiceImpl.java
+/home/magpor/projects/magnus/myfirstmaven/src/main/java/com/so4it/MyMain.java
+/home/magpor/projects/magnus/myfirstmaven/src/main/java/com/so4it/service/AccountService.java
+/home/magpor/projects/magnus/myfirstmaven/src/main/java/com/so4it/dao/AccountDaoImpl.java
+/home/magpor/projects/magnus/myfirstmaven/src/main/java/com/so4it/messaging/AccountListener.java
+/home/magpor/projects/magnus/myfirstmaven/src/main/java/com/so4it/service/AnotherAccountServiceImpl.java
+/home/magpor/projects/magnus/myfirstmaven/src/main/java/com/so4it/service/ServiceFactoryImplTwo.java
+/home/magpor/projects/magnus/myfirstmaven/src/main/java/com/so4it/MySpringMain.java
+/home/magpor/projects/magnus/myfirstmaven/src/main/java/com/so4it/service/ServiceFactory.java

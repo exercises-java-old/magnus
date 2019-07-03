@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+    <bean id="queue" class="java.util.concurrent.LinkedBlockingDeque"/>
+
+
+    <bean id = "accountProducer" class = "com.so4it.messaging.AccountProducer">
+        <constructor-arg name="queue" ref="queue"/>
+    </bean>
+
+
+    <bean id="accountConsumer" class="com.so4it.messaging.AccountConsumer"
+            init-method="init" destroy-method="close">
+        <constructor-arg name="queue" ref="queue"/>
+        <constructor-arg name="accountListeners">
+            <list>
+                <bean name="accountListeners" class="com.so4it.messaging.AccountListenerImpl">
+                    <constructor-arg name="accountDao" ref="accountDao"/>
+                </bean>
+            </list>
+        </constructor-arg>
+
+    </bean>
+
+
+</beans>

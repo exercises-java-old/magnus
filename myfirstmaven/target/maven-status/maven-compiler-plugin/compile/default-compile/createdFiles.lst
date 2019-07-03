@@ -1,0 +1,16 @@
+com/so4it/service/AccountService.class
+com/so4it/service/AnotherAccountServiceImpl.class
+com/so4it/service/ServiceFactoryImplTwo.class
+com/so4it/service/AccountServiceImpl.class
+com/so4it/MySpringMain.class
+com/so4it/service/ServiceFactoryImplOne.class
+com/so4it/service/ServiceFactoryImplTwo$AccountDaoMock.class
+com/so4it/domain/Account$Builder.class
+com/so4it/MyMain.class
+com/so4it/service/ServiceFactory.class
+com/so4it/messaging/AccountProducer.class
+com/so4it/messaging/AccountConsumer.class
+com/so4it/domain/Account.class
+com/so4it/messaging/AccountListener.class
+com/so4it/dao/AccountDaoImpl.class
+com/so4it/dao/AccountDao.class

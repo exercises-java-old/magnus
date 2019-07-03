@@ -113,46 +113,4 @@ public abstract class RecurringBlockingTask<T> implements AutoCloseable {
             }
         }
     }
-
-    private class MultipleDrainTaskRunnable implements Runnable {
-
-        private volatile boolean running = false;
-
-        private RecurringBlockingTask<T> recurringTask;
-
-        private int drain;
-
-        public MultipleDrainTaskRunnable(RecurringBlockingTask recurringTask, int drain) {
-            this.recurringTask = recurringTask;
-            this.drain = drain;
-        }
-
-        public void setRunning(boolean running) {
-            this.running = running;
-        }
-
-        public boolean isRunning() {
-            return running;
-        }
-
-        @Override
-        public void run() {
-            T t = null;
-            List<T> ts = new ArrayList<>();
-            while (!Thread.currentThread().isInterrupted() && this.running) {
-                try {
-                    ts.clear();
-                    t = RecurringBlockingTask.this.queue.poll(getBackoff(), TimeUnit.MILLISECONDS);
-                    ts.add(t);
-                    if(t != null){
-                        RecurringBlockingTask.this.queue.drainTo(ts);
-                    }
-                    recurringTask.doTask(ts);
-                } catch (Throwable e) {
-                    recurringTask.onError(e,t);
-                }
-            }
-        }
-    }
-
 }
