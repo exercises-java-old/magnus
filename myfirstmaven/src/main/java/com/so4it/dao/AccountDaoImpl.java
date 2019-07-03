@@ -2,6 +2,7 @@ package com.so4it.dao;
 
 import com.so4it.domain.Account;
 
+import java.sql.Connection;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -23,6 +24,11 @@ public class AccountDaoImpl implements AccountDao{
     @Override
     public Optional<Account> read(Long id) {
         return Optional.ofNullable(accounts.get(id));
+    }
+
+    @Override
+    public Connection connectToDatabase() {
+        return null;
     }
 
     @Override

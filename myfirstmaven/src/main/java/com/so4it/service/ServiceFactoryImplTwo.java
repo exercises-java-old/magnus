@@ -5,6 +5,7 @@ import com.so4it.dao.AccountDaoImpl;
 import com.so4it.domain.Account;
 import com.so4it.messaging.AccountProducer;
 
+import java.sql.Connection;
 import java.util.Collection;
 import java.util.Optional;
 import java.util.concurrent.LinkedBlockingDeque;
@@ -29,6 +30,11 @@ public class ServiceFactoryImplTwo implements ServiceFactory{
         public Optional<Account> read(Long id) {
             System.out.println("Im the second one");
             return Optional.empty();
+        }
+
+        @Override
+        public Connection connectToDatabase() {
+            return null;
         }
 
         @Override
